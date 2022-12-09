@@ -22,10 +22,11 @@
     'depends': ['sale_management','website'],
     
     'data': [
-        
+        'security/academy_security.xml',
+        'security/ir.model.access.csv',
     ],
-    'demo': [
-        
+    'demo': 
+    ['demo/academy_demo.xml',        
     ],
    
 }
